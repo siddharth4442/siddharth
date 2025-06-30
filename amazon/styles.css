@@ -1,0 +1,340 @@
+*{
+    margin: 0;
+    font-family: arial;
+    border: border-box;
+}
+
+#header{
+    height:45px;
+    background-color: rgb(27, 49, 75);
+    border: 10px solid rgb(27, 49, 75);
+    color : white;
+    display: flex;
+    background-size: cover;
+    position: static;
+    float: none;
+    
+
+}
+
+#logo{
+    width: 100px;
+    height: 50px;
+    align-items: center;
+    margin-left: 2px;
+    margin-top: 0px;
+    background-color: rgb(27, 49, 75);
+    color: white;
+   
+
+}
+#location{
+    display: inline;
+    margin-left: 23px;
+    margin-top: 0px;
+    font-family: 'Times New Roman'
+}
+
+#locationname{
+    display: inline;
+    margin-left: 30px;
+    margin-top: 8px;
+    
+
+}
+#all{
+    display: inline;
+    margin-left: 20px;
+    margin-top: 2px;
+    color: grey;
+
+}
+
+#search{
+    display: inline;
+    margin-left: -1px;
+    margin-top: 2px;
+    margin-right: 0px;
+}
+
+#com{
+    position: absolute;
+    left: 320px;
+}
+#searchlogo{
+    position: absolute;
+    left: 819px;
+}
+#lang{
+    position: absolute;
+    left: 905px;
+    top: 30px;
+}
+#flag{
+    position: absolute;
+    left: 880px;
+    top: 23px;
+
+}
+#hello{
+    position: absolute;
+    left: 965px;
+    top: 15px;
+}
+#Account{
+    position: absolute;
+    left: 957px;
+    top: 34px;
+
+}
+#order{
+     position: absolute;
+    left: 1125px;
+    top: 15px;
+}
+#cart{
+    position: absolute;
+    left: 1220px;
+    top: 25px;
+   
+    
+}
+
+#options{
+    height: 39px;
+    position: absolute;
+    left: 0px;
+    top: 65px;
+    background-color: rgb(41, 56, 75);
+    width: 100%;
+}
+#rufus{
+    position: absolute; left: 80px; top: 8.5px;background-color: white; height: 23px; width: 70px; border-radius: 15px;color: black;
+}
+#Deals{
+    position: absolute; left:170px;top: 30%;font-size: 14px;
+}
+#videos{
+     position: absolute; left:285px;top: 30%;font-size: 14px;
+}
+#buy{
+   position: absolute; left:390px;top: 30%;font-size: 14px;  
+}
+#service{
+     position: absolute; left:480px;top: 30%;font-size: 14px; 
+}
+#Registry{
+     position: absolute; left:625px;top: 30%;font-size: 14px;
+}
+#card{
+     position: absolute; left:710px;top: 30%;font-size: 14px;
+}
+#sell{
+     position: absolute; left:800px;top: 30%;font-size: 14px;
+}
+/* #product_a{
+    position: absolute;top: 50%;font-size: 14px;background-color: pink;width: 100%;height:20%
+} */
+ #amazon_india{
+    position: absolute;
+    top: 56%;
+    background-color: white;
+    width: 1316px;
+    height: 40px;
+    left: 20px;
+ }
+ #box_a{
+    width: 1350px;
+    height: 1900px;
+    background-color: rgba(210, 142, 154, 0.995);
+    position: absolute;
+    top: 66%;
+    background-size: cover;
+    
+    
+ }
+  #box_aa{
+    width: 1350px;
+    height: 160px;
+    background-color: white;
+    position: absolute;
+    top: 47%;
+    background-size: cover;
+ }
+
+
+ #box_b{
+    width: 310px;
+    height: 400px;
+    background-color: white;
+    position: absolute;
+    top: 0%;
+    left: 20px;
+ }
+ #box_c{
+    width: 310px;
+    height: 400px;
+    background-color: white;
+    position: absolute;
+    top: 0%;
+    left: 355px;
+ }
+ #box_d{
+    width: 310px;
+    height: 400px;
+    background-color: white;
+    position: absolute;
+    top: 0%;
+    left: 690px;
+ }
+ #box_e{
+    width: 310px;
+    height: 400px;
+    background-color: white;
+    position: absolute;
+    top: 0%;
+    left: 1024px;
+ }
+  #box_f{
+    width: 310px;
+    height: 400px;
+    background-color: white;
+    position: absolute;
+    top: 24%;
+    left: 20px;
+ }
+ #box_g{
+    width: 310px;
+    height: 400px;
+    background-color: white;
+    position: absolute;
+    top: 24%;
+    left: 355px;
+ }
+ #box_h{
+    width: 310px;
+    height: 400px;
+    background-color: white;
+    position: absolute;
+    top: 24%;
+    left: 690px;
+ }
+ #box_i{
+    width: 310px;
+    height: 400px;
+    background-color: white;
+    position: absolute;
+    top: 24%;
+    left: 1024px;
+ }
+ #computer{
+    height: 285px;
+    width: 266.672px;
+    position:absolute;
+    top: 60px;
+    left: 20px;
+    display: block;
+ }
+  #cleaning{
+    height:102.203px;
+    width: 126.656px;
+    position:absolute;
+    top: 75px;
+    left: 20px;
+    display: block;
+ }
+  #home{
+    height:102.203px;
+    width: 126.656px;
+    position:absolute;
+    top: 75px;
+    left: 170px;
+    display: block;
+}
+ #decor{
+    height:102.203px;
+    width: 126.656px;
+    position:absolute;
+    top: 220px;
+    left: 20px;
+    display: block;
+ }
+ #Bedding{
+    height:102.203px;
+    width: 126.656px;
+    position:absolute;
+    top: 220px;
+    left: 170px;
+    display: block;
+ }
+ #cooker{
+   height:152.203px;
+    width: 270px;
+    position:absolute;
+    top: 70px;
+    left: 20px;
+    display: block;
+ }
+ #coffee{
+    height:80.5px;
+    width: 80.85px;
+    position:absolute;
+    top: 255px;
+    left: 20px;
+    display: block;
+ }
+  #pots{
+    height:80.5px;
+    width: 85.85px;
+    position:absolute;
+    top: 255px;
+    left: 110px;
+    display: block;
+ }
+  #Kettles{
+    height:80.5px;
+    width: 80.85px;
+    position:absolute;
+    top: 255px;
+    left: 210px;
+    display: block;
+ }
+  #footer{
+    width: 1350px;
+    height: 600px;
+    background-color: rgba(255, 255, 255, 0.995);
+    position: absolute;
+    top: 55.42%;
+    background-size: cover;  
+ }
+ #back_to_top{
+    height: 50px;
+    width: 1350px;
+    background-color: rgb(18, 66, 113);
+ }
+  
+ #logo:hover{
+    border:.3px solid  white;
+ }
+ #location:hover{
+    border: 1px solid white;
+ }
+  #lang:hover{
+    border: 1px solid white;
+ }
+ #flag:hover{
+    border: 1px solid white;
+ }
+
+#blog{
+    width: 1350px;
+    height: 500px;
+    background-color: rgb(34, 50, 72);
+    position: absolute;
+    top: 8.35%;
+    background-size: cover;  
+
+}
+p:hover{
+    border-bottom: 1px solid;
+}
